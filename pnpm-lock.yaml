@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^0.41.0
-        version: registry.npmmirror.com/@antfu/eslint-config@0.41.0(eslint@8.48.0)(typescript@5.2.2)
+        version: registry.npmmirror.com/@antfu/eslint-config@0.41.0(eslint@8.51.0)(typescript@5.2.2)
       '@iconify/json':
-        specifier: ^2.2.110
-        version: registry.npmmirror.com/@iconify/json@2.2.110
+        specifier: ^2.2.126
+        version: registry.npmmirror.com/@iconify/json@2.2.126
       '@slidev/cli':
-        specifier: ^0.43.6
-        version: registry.npmmirror.com/@slidev/cli@0.43.6(@types/markdown-it@13.0.2)(@types/node@20.5.9)(playwright-chromium@1.38.1)(postcss@8.4.31)
+        specifier: ^0.43.7
+        version: registry.npmmirror.com/@slidev/cli@0.43.7(@types/markdown-it@13.0.2)(@types/node@20.8.3)(playwright-chromium@1.38.1)(postcss@8.4.31)
       '@slidev/theme-default':
         specifier: ^0.21.2
         version: registry.npmmirror.com/@slidev/theme-default@0.21.2
@@ -24,14 +24,14 @@ importers:
         specifier: latest
         version: registry.npmmirror.com/@slidev/theme-seriph@0.21.3
       '@types/node':
-        specifier: ^20.5.9
-        version: registry.npmmirror.com/@types/node@20.5.9
+        specifier: ^20.8.3
+        version: registry.npmmirror.com/@types/node@20.8.3
       '@types/prompts':
         specifier: ^2.4.5
         version: registry.npmmirror.com/@types/prompts@2.4.5
       eslint:
-        specifier: ^8.48.0
-        version: registry.npmmirror.com/eslint@8.48.0
+        specifier: ^8.51.0
+        version: registry.npmmirror.com/eslint@8.51.0
       esno:
         specifier: ^0.17.0
         version: registry.npmmirror.com/esno@0.17.0
@@ -45,8 +45,8 @@ importers:
         specifier: ^1.38.1
         version: registry.npmmirror.com/playwright-chromium@1.38.1
       pnpm:
-        specifier: ^8.7.1
-        version: registry.npmmirror.com/pnpm@8.7.1
+        specifier: ^8.8.0
+        version: registry.npmmirror.com/pnpm@8.8.0
       prompts:
         specifier: ^2.4.2
         version: registry.npmmirror.com/prompts@2.4.2
@@ -61,6 +61,8 @@ importers:
         version: registry.npmmirror.com/typescript@5.2.2
 
   2023-10-slidev/src: {}
+
+  2023-10-vim/src: {}
 
 packages:
 
@@ -81,7 +83,7 @@ packages:
       '@jridgewell/trace-mapping': registry.npmmirror.com/@jridgewell/trace-mapping@0.3.19
     dev: true
 
-  registry.npmmirror.com/@antfu/eslint-config-basic@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@antfu/eslint-config-basic@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-zcwFv+nEV/NroeeVWriNdnIGd9soOLRG8wIiVz4VVJ0BjONrqQR56HLG/gDxH/1GUYBnQCEcVxGUmegce08cnw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@antfu/eslint-config-basic/-/eslint-config-basic-0.41.0.tgz}
     id: registry.npmmirror.com/@antfu/eslint-config-basic/0.41.0
     name: '@antfu/eslint-config-basic'
@@ -89,19 +91,19 @@ packages:
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      eslint: registry.npmmirror.com/eslint@8.48.0
-      eslint-plugin-antfu: registry.npmmirror.com/eslint-plugin-antfu@0.41.0(eslint@8.48.0)(typescript@5.2.2)
-      eslint-plugin-eslint-comments: registry.npmmirror.com/eslint-plugin-eslint-comments@3.2.0(eslint@8.48.0)
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-plugin-antfu: registry.npmmirror.com/eslint-plugin-antfu@0.41.0(eslint@8.51.0)(typescript@5.2.2)
+      eslint-plugin-eslint-comments: registry.npmmirror.com/eslint-plugin-eslint-comments@3.2.0(eslint@8.51.0)
       eslint-plugin-html: registry.npmmirror.com/eslint-plugin-html@7.1.0
-      eslint-plugin-import: registry.npmmirror.com/eslint-plugin-i@2.28.0-2(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)
-      eslint-plugin-jsonc: registry.npmmirror.com/eslint-plugin-jsonc@2.9.0(eslint@8.48.0)
-      eslint-plugin-markdown: registry.npmmirror.com/eslint-plugin-markdown@3.0.1(eslint@8.48.0)
-      eslint-plugin-n: registry.npmmirror.com/eslint-plugin-n@16.1.0(eslint@8.48.0)
+      eslint-plugin-import: registry.npmmirror.com/eslint-plugin-i@2.28.0-2(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)
+      eslint-plugin-jsonc: registry.npmmirror.com/eslint-plugin-jsonc@2.10.0(eslint@8.51.0)
+      eslint-plugin-markdown: registry.npmmirror.com/eslint-plugin-markdown@3.0.1(eslint@8.51.0)
+      eslint-plugin-n: registry.npmmirror.com/eslint-plugin-n@16.1.0(eslint@8.51.0)
       eslint-plugin-no-only-tests: registry.npmmirror.com/eslint-plugin-no-only-tests@3.1.0
-      eslint-plugin-promise: registry.npmmirror.com/eslint-plugin-promise@6.1.1(eslint@8.48.0)
-      eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn@48.0.1(eslint@8.48.0)
-      eslint-plugin-unused-imports: registry.npmmirror.com/eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.48.0)
-      eslint-plugin-yml: registry.npmmirror.com/eslint-plugin-yml@1.9.0(eslint@8.48.0)
+      eslint-plugin-promise: registry.npmmirror.com/eslint-plugin-promise@6.1.1(eslint@8.51.0)
+      eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn@48.0.1(eslint@8.51.0)
+      eslint-plugin-unused-imports: registry.npmmirror.com/eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.51.0)
+      eslint-plugin-yml: registry.npmmirror.com/eslint-plugin-yml@1.10.0(eslint@8.51.0)
       jsonc-eslint-parser: registry.npmmirror.com/jsonc-eslint-parser@2.3.0
       yaml-eslint-parser: registry.npmmirror.com/yaml-eslint-parser@1.2.2
     transitivePeerDependencies:
@@ -113,7 +115,7 @@ packages:
       - typescript
     dev: true
 
-  registry.npmmirror.com/@antfu/eslint-config-ts@0.41.0(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@antfu/eslint-config-ts@0.41.0(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-ng3GYpJGZgrxGwBVda/MgUpveH3LbEqdPCFi1+S5e62W4kf8rmEVbhc0I8w7/aKN0uNqir5SInYg8gob2maDAQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@antfu/eslint-config-ts/-/eslint-config-ts-0.41.0.tgz}
     id: registry.npmmirror.com/@antfu/eslint-config-ts/0.41.0
     name: '@antfu/eslint-config-ts'
@@ -122,11 +124,11 @@ packages:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@antfu/eslint-config-basic': registry.npmmirror.com/@antfu/eslint-config-basic@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.48.0)(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
-      eslint-plugin-jest: registry.npmmirror.com/eslint-plugin-jest@27.4.2(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
+      '@antfu/eslint-config-basic': registry.npmmirror.com/@antfu/eslint-config-basic@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.51.0)(typescript@5.2.2)
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-plugin-jest: registry.npmmirror.com/eslint-plugin-jest@27.4.2(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
       typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
@@ -135,7 +137,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@antfu/eslint-config-vue@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@antfu/eslint-config-vue@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-iJiEGRUgRmT3mQCmGl0hTMwq/ShXRjRPjpgsDcphKJyEF06ZIR/4gxHn+utQRLT2hD39DQN8gk0ZbpV3gWtf/g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@antfu/eslint-config-vue/-/eslint-config-vue-0.41.0.tgz}
     id: registry.npmmirror.com/@antfu/eslint-config-vue/0.41.0
     name: '@antfu/eslint-config-vue'
@@ -143,10 +145,10 @@ packages:
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-basic': registry.npmmirror.com/@antfu/eslint-config-basic@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      '@antfu/eslint-config-ts': registry.npmmirror.com/@antfu/eslint-config-ts@0.41.0(eslint@8.48.0)(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
-      eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue@9.17.0(eslint@8.48.0)
+      '@antfu/eslint-config-basic': registry.npmmirror.com/@antfu/eslint-config-basic@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      '@antfu/eslint-config-ts': registry.npmmirror.com/@antfu/eslint-config-ts@0.41.0(eslint@8.51.0)(typescript@5.2.2)
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue@9.17.0(eslint@8.51.0)
       local-pkg: registry.npmmirror.com/local-pkg@0.4.3
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
@@ -158,7 +160,7 @@ packages:
       - typescript
     dev: true
 
-  registry.npmmirror.com/@antfu/eslint-config@0.41.0(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@antfu/eslint-config@0.41.0(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-510DginDPdzf45O6HOah3cK6NHXxobBc43IdBQCQmUGb+av9LIJjrd1idThFoyFh6m05iZ4YX/mhnhhJFqLiNw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@antfu/eslint-config/-/eslint-config-0.41.0.tgz}
     id: registry.npmmirror.com/@antfu/eslint-config/0.41.0
     name: '@antfu/eslint-config'
@@ -166,19 +168,19 @@ packages:
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@antfu/eslint-config-vue': registry.npmmirror.com/@antfu/eslint-config-vue@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.48.0)(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
-      eslint-plugin-eslint-comments: registry.npmmirror.com/eslint-plugin-eslint-comments@3.2.0(eslint@8.48.0)
+      '@antfu/eslint-config-vue': registry.npmmirror.com/@antfu/eslint-config-vue@0.41.0(@typescript-eslint/eslint-plugin@6.7.4)(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.51.0)(typescript@5.2.2)
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-plugin-eslint-comments: registry.npmmirror.com/eslint-plugin-eslint-comments@3.2.0(eslint@8.51.0)
       eslint-plugin-html: registry.npmmirror.com/eslint-plugin-html@7.1.0
-      eslint-plugin-import: registry.npmmirror.com/eslint-plugin-i@2.28.0-2(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)
-      eslint-plugin-jsonc: registry.npmmirror.com/eslint-plugin-jsonc@2.9.0(eslint@8.48.0)
-      eslint-plugin-n: registry.npmmirror.com/eslint-plugin-n@16.1.0(eslint@8.48.0)
-      eslint-plugin-promise: registry.npmmirror.com/eslint-plugin-promise@6.1.1(eslint@8.48.0)
-      eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn@48.0.1(eslint@8.48.0)
-      eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue@9.17.0(eslint@8.48.0)
-      eslint-plugin-yml: registry.npmmirror.com/eslint-plugin-yml@1.9.0(eslint@8.48.0)
+      eslint-plugin-import: registry.npmmirror.com/eslint-plugin-i@2.28.0-2(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)
+      eslint-plugin-jsonc: registry.npmmirror.com/eslint-plugin-jsonc@2.10.0(eslint@8.51.0)
+      eslint-plugin-n: registry.npmmirror.com/eslint-plugin-n@16.1.0(eslint@8.51.0)
+      eslint-plugin-promise: registry.npmmirror.com/eslint-plugin-promise@6.1.1(eslint@8.51.0)
+      eslint-plugin-unicorn: registry.npmmirror.com/eslint-plugin-unicorn@48.0.1(eslint@8.51.0)
+      eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue@9.17.0(eslint@8.51.0)
+      eslint-plugin-yml: registry.npmmirror.com/eslint-plugin-yml@1.10.0(eslint@8.51.0)
       jsonc-eslint-parser: registry.npmmirror.com/jsonc-eslint-parser@2.3.0
       yaml-eslint-parser: registry.npmmirror.com/yaml-eslint-parser@1.2.2
     transitivePeerDependencies:
@@ -821,7 +823,7 @@ packages:
     dev: true
     optional: true
 
-  registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0):
+  registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz}
     id: registry.npmmirror.com/@eslint-community/eslint-utils/4.4.0
     name: '@eslint-community/eslint-utils'
@@ -830,7 +832,7 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys@3.4.3
     dev: true
 
@@ -860,10 +862,10 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@eslint/js@8.48.0:
-    resolution: {integrity: sha512-ZSjtmelB7IJfWD2Fvb7+Z+ChTIKWq6kjda95fLcQKNS5aheVHn4IkfgRQE3sIIzTcSLwLcLZUD9UBt+V7+h+Pw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@eslint/js/-/js-8.48.0.tgz}
+  registry.npmmirror.com/@eslint/js@8.51.0:
+    resolution: {integrity: sha512-HxjQ8Qn+4SI3/AFv6sOrDB+g6PpUTDwSJiQqOrnneEk8L71161srI9gjzzZvYVbzHiVg/BvcH95+cK/zfIt4pg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@eslint/js/-/js-8.51.0.tgz}
     name: '@eslint/js'
-    version: 8.48.0
+    version: 8.51.0
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
@@ -922,10 +924,10 @@ packages:
       '@iconify/types': registry.npmmirror.com/@iconify/types@2.0.0
     dev: true
 
-  registry.npmmirror.com/@iconify/json@2.2.110:
-    resolution: {integrity: sha512-S7aKdBkVyAVOlxy/DD91NoGR/dAjpyLjEPYjaC+Ff2tkd7pzQnylNoR4h+K+N9su+fLUpD1XrKyw/oIYEyBfOg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/json/-/json-2.2.110.tgz}
+  registry.npmmirror.com/@iconify/json@2.2.126:
+    resolution: {integrity: sha512-OoOu5RP3vUiYwwmY/q2KsJQKzI5XKnLeIONwbkvu5EY6+qHQVuqZ4Dry1zdGJub/V0qa6j+OU3bkdL7TgD80dw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/json/-/json-2.2.126.tgz}
     name: '@iconify/json'
-    version: 2.2.110
+    version: 2.2.126
     dependencies:
       '@iconify/types': registry.npmmirror.com/@iconify/types@2.0.0
       pathe: registry.npmmirror.com/pathe@1.1.1
@@ -1188,11 +1190,11 @@ packages:
       picomatch: registry.npmmirror.com/picomatch@2.3.1
     dev: true
 
-  registry.npmmirror.com/@slidev/cli@0.43.6(@types/markdown-it@13.0.2)(@types/node@20.5.9)(playwright-chromium@1.38.1)(postcss@8.4.31):
-    resolution: {integrity: sha512-tLpcmuv8PoHA1AvkoytYfhpxc7eaWOC6KyiYy2xBvMe4VBiz38//P3/ZBmXBXb3iJ9gaXF+qY2q59oD1qpmVBw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/cli/-/cli-0.43.6.tgz}
-    id: registry.npmmirror.com/@slidev/cli/0.43.6
+  registry.npmmirror.com/@slidev/cli@0.43.7(@types/markdown-it@13.0.2)(@types/node@20.8.3)(playwright-chromium@1.38.1)(postcss@8.4.31):
+    resolution: {integrity: sha512-6JVo/KZUkl2sw5S2QpvD2eKgyfJzvQwUED4FhlBc5LHT4EPXKzRwHQ7fqI31tDp97KlmsKniosCYD9TMYnjrRQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/cli/-/cli-0.43.7.tgz}
+    id: registry.npmmirror.com/@slidev/cli/0.43.7
     name: '@slidev/cli'
-    version: 0.43.6
+    version: 0.43.7
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1207,9 +1209,9 @@ packages:
       '@iconify-json/ph': registry.npmmirror.com/@iconify-json/ph@1.1.6
       '@lillallol/outline-pdf': registry.npmmirror.com/@lillallol/outline-pdf@4.0.0
       '@mrdrogdrog/optional': registry.npmmirror.com/@mrdrogdrog/optional@1.2.1
-      '@slidev/client': registry.npmmirror.com/@slidev/client@0.43.6(postcss@8.4.31)(vite@4.4.11)
-      '@slidev/parser': registry.npmmirror.com/@slidev/parser@0.43.6
-      '@slidev/types': registry.npmmirror.com/@slidev/types@0.43.6
+      '@slidev/client': registry.npmmirror.com/@slidev/client@0.43.7(postcss@8.4.31)(vite@4.4.11)
+      '@slidev/parser': registry.npmmirror.com/@slidev/parser@0.43.7
+      '@slidev/types': registry.npmmirror.com/@slidev/types@0.43.7
       '@unocss/extractor-mdc': registry.npmmirror.com/@unocss/extractor-mdc@0.56.5
       '@unocss/reset': registry.npmmirror.com/@unocss/reset@0.56.5
       '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue@4.4.0(vite@4.4.11)(vue@3.3.4)
@@ -1253,7 +1255,7 @@ packages:
       unplugin-vue-components: registry.npmmirror.com/unplugin-vue-components@0.25.2(vue@3.3.4)
       unplugin-vue-markdown: registry.npmmirror.com/unplugin-vue-markdown@0.24.3(vite@4.4.11)
       uqr: registry.npmmirror.com/uqr@0.1.2
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
       vite-plugin-inspect: registry.npmmirror.com/vite-plugin-inspect@0.7.40(vite@4.4.11)
       vite-plugin-remote-assets: registry.npmmirror.com/vite-plugin-remote-assets@0.3.2(vite@4.4.11)
       vite-plugin-static-copy: registry.npmmirror.com/vite-plugin-static-copy@0.17.0(vite@4.4.11)
@@ -1285,16 +1287,16 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  registry.npmmirror.com/@slidev/client@0.43.6(postcss@8.4.31)(vite@4.4.11):
-    resolution: {integrity: sha512-R69nZAPsbSrIPWFLIJtdAaRCg+LnsFuzXHO6cFFrpPsN4ZqkGg2PuH69rk0j6naIjdhXV4c5toXGQ8fsN1zO4w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/client/-/client-0.43.6.tgz}
-    id: registry.npmmirror.com/@slidev/client/0.43.6
+  registry.npmmirror.com/@slidev/client@0.43.7(postcss@8.4.31)(vite@4.4.11):
+    resolution: {integrity: sha512-IqZAhqKpmDTrvNw/vFQe5OzNiCNwYKZ/cdcGB++u1ybUPtUgy0lDRc32JlPrssqWb3eQpC8MZBsB3vC3fe/DWg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/client/-/client-0.43.7.tgz}
+    id: registry.npmmirror.com/@slidev/client/0.43.7
     name: '@slidev/client'
-    version: 0.43.6
+    version: 0.43.7
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': registry.npmmirror.com/@antfu/utils@0.7.6
-      '@slidev/parser': registry.npmmirror.com/@slidev/parser@0.43.6
-      '@slidev/types': registry.npmmirror.com/@slidev/types@0.43.6
+      '@slidev/parser': registry.npmmirror.com/@slidev/parser@0.43.7
+      '@slidev/types': registry.npmmirror.com/@slidev/types@0.43.7
       '@unocss/reset': registry.npmmirror.com/@unocss/reset@0.56.5
       '@vueuse/core': registry.npmmirror.com/@vueuse/core@10.5.0(vue@3.3.4)
       '@vueuse/head': registry.npmmirror.com/@vueuse/head@2.0.0(vue@3.3.4)
@@ -1329,13 +1331,13 @@ packages:
       - vite
     dev: true
 
-  registry.npmmirror.com/@slidev/parser@0.43.6:
-    resolution: {integrity: sha512-rh4Yj6YcJdapifYyABrbM0fNNRx1S196UvhBWxbQSxiINUHvuuoO1Qb/XimaAcRZntJR2NEFJuK9OsNcOYC4cw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/parser/-/parser-0.43.6.tgz}
+  registry.npmmirror.com/@slidev/parser@0.43.7:
+    resolution: {integrity: sha512-xikI4fS290P1dx1lpofWKgdI4XrzJJzsdf21JFQtCSqAuIzXdwuLk8xjNt/QrmRypRa0yrcUibE6/DAmjOxftg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/parser/-/parser-0.43.7.tgz}
     name: '@slidev/parser'
-    version: 0.43.6
+    version: 0.43.7
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@slidev/types': registry.npmmirror.com/@slidev/types@0.43.6
+      '@slidev/types': registry.npmmirror.com/@slidev/types@0.43.7
       js-yaml: registry.npmmirror.com/js-yaml@4.1.0
     dev: true
 
@@ -1377,10 +1379,10 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
-  registry.npmmirror.com/@slidev/types@0.43.6:
-    resolution: {integrity: sha512-a3g+ZQ83YkWXkMpOwQ8NY/HtN7oFfPaWf+8ON67vSSIxSQDqG3ziOcACaupKam0JXj+U2SnB/bPavqPk9LWEvQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/types/-/types-0.43.6.tgz}
+  registry.npmmirror.com/@slidev/types@0.43.7:
+    resolution: {integrity: sha512-EtX6p5K6neCF7IcnFfq41ASytWANVJlZLhWh+TAtBsNCFCSi694XdD2juF8Z4R1hVXrRxBMyMUwLZM/OxgU1og==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@slidev/types/-/types-0.43.7.tgz}
     name: '@slidev/types'
-    version: 0.43.6
+    version: 0.43.7
     engines: {node: '>=18.0.0'}
     dev: true
 
@@ -1475,10 +1477,10 @@ packages:
     version: 0.7.32
     dev: true
 
-  registry.npmmirror.com/@types/node@20.5.9:
-    resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-20.5.9.tgz}
+  registry.npmmirror.com/@types/node@20.8.3:
+    resolution: {integrity: sha512-jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/node/-/node-20.8.3.tgz}
     name: '@types/node'
-    version: 20.5.9
+    version: 20.8.3
     dev: true
 
   registry.npmmirror.com/@types/normalize-package-data@2.4.2:
@@ -1492,7 +1494,7 @@ packages:
     name: '@types/prompts'
     version: 2.4.5
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@20.5.9
+      '@types/node': registry.npmmirror.com/@types/node@20.8.3
       kleur: registry.npmmirror.com/kleur@3.0.3
     dev: true
 
@@ -1520,7 +1522,7 @@ packages:
     version: 0.0.18
     dev: true
 
-  registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-DAbgDXwtX+pDkAHwiGhqP3zWUGpW49B7eqmgpPtg+BKJXwdct79ut9+ifqOFPJGClGKSHXn2PTBatCnldJRUoA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.7.4.tgz}
     id: registry.npmmirror.com/@typescript-eslint/eslint-plugin/6.7.4
     name: '@typescript-eslint/eslint-plugin'
@@ -1535,13 +1537,13 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': registry.npmmirror.com/@eslint-community/regexpp@4.9.1
-      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.51.0)(typescript@5.2.2)
       '@typescript-eslint/scope-manager': registry.npmmirror.com/@typescript-eslint/scope-manager@6.7.4
-      '@typescript-eslint/type-utils': registry.npmmirror.com/@typescript-eslint/type-utils@6.7.4(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/type-utils': registry.npmmirror.com/@typescript-eslint/type-utils@6.7.4(eslint@8.51.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.51.0)(typescript@5.2.2)
       '@typescript-eslint/visitor-keys': registry.npmmirror.com/@typescript-eslint/visitor-keys@6.7.4
       debug: registry.npmmirror.com/debug@4.3.4
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       graphemer: registry.npmmirror.com/graphemer@1.4.0
       ignore: registry.npmmirror.com/ignore@5.2.4
       natural-compare: registry.npmmirror.com/natural-compare@1.4.0
@@ -1552,7 +1554,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-I5zVZFY+cw4IMZUeNCU7Sh2PO5O57F7Lr0uyhgCJmhN/BuTlnc55KxPonR4+EM3GBdfiCyGZye6DgMjtubQkmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-6.7.4.tgz}
     id: registry.npmmirror.com/@typescript-eslint/parser/6.7.4
     name: '@typescript-eslint/parser'
@@ -1570,7 +1572,7 @@ packages:
       '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.7.4(typescript@5.2.2)
       '@typescript-eslint/visitor-keys': registry.npmmirror.com/@typescript-eslint/visitor-keys@6.7.4
       debug: registry.npmmirror.com/debug@4.3.4
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
       - supports-color
@@ -1596,7 +1598,7 @@ packages:
       '@typescript-eslint/visitor-keys': registry.npmmirror.com/@typescript-eslint/visitor-keys@6.7.4
     dev: true
 
-  registry.npmmirror.com/@typescript-eslint/type-utils@6.7.4(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@typescript-eslint/type-utils@6.7.4(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-n+g3zi1QzpcAdHFP9KQF+rEFxMb2KxtnJGID3teA/nxKHOVi3ylKovaqEzGBbVY2pBttU6z85gp0D00ufLzViQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/type-utils/-/type-utils-6.7.4.tgz}
     id: registry.npmmirror.com/@typescript-eslint/type-utils/6.7.4
     name: '@typescript-eslint/type-utils'
@@ -1610,9 +1612,9 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.7.4(typescript@5.2.2)
-      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.51.0)(typescript@5.2.2)
       debug: registry.npmmirror.com/debug@4.3.4
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       ts-api-utils: registry.npmmirror.com/ts-api-utils@1.0.3(typescript@5.2.2)
       typescript: registry.npmmirror.com/typescript@5.2.2
     transitivePeerDependencies:
@@ -1681,7 +1683,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@typescript-eslint/utils@5.62.0(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@typescript-eslint/utils@5.62.0(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-n8oxjeb5aIbPFEtmQxQYOLI0i9n5ySBEY/ZEHHZqKQSFnxio1rv6dthascc9dLuwrL0RC5mPCxB7vnAVGAYWAQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-5.62.0.tgz}
     id: registry.npmmirror.com/@typescript-eslint/utils/5.62.0
     name: '@typescript-eslint/utils'
@@ -1690,13 +1692,13 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
       '@types/json-schema': registry.npmmirror.com/@types/json-schema@7.0.13
       '@types/semver': registry.npmmirror.com/@types/semver@7.5.3
       '@typescript-eslint/scope-manager': registry.npmmirror.com/@typescript-eslint/scope-manager@5.62.0
       '@typescript-eslint/types': registry.npmmirror.com/@typescript-eslint/types@5.62.0
       '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@5.62.0(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       eslint-scope: registry.npmmirror.com/eslint-scope@5.1.1
       semver: registry.npmmirror.com/semver@7.5.4
     transitivePeerDependencies:
@@ -1704,7 +1706,7 @@ packages:
       - typescript
     dev: true
 
-  registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-PRQAs+HUn85Qdk+khAxsVV+oULy3VkbH3hQ8hxLRJXWBEd7iI+GbQxH5SEUSH7kbEoTp6oT1bOwyga24ELALTA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@typescript-eslint/utils/-/utils-6.7.4.tgz}
     id: registry.npmmirror.com/@typescript-eslint/utils/6.7.4
     name: '@typescript-eslint/utils'
@@ -1713,13 +1715,13 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
       '@types/json-schema': registry.npmmirror.com/@types/json-schema@7.0.13
       '@types/semver': registry.npmmirror.com/@types/semver@7.5.3
       '@typescript-eslint/scope-manager': registry.npmmirror.com/@typescript-eslint/scope-manager@6.7.4
       '@typescript-eslint/types': registry.npmmirror.com/@typescript-eslint/types@6.7.4
       '@typescript-eslint/typescript-estree': registry.npmmirror.com/@typescript-eslint/typescript-estree@6.7.4(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       semver: registry.npmmirror.com/semver@7.5.4
     transitivePeerDependencies:
       - supports-color
@@ -1825,7 +1827,7 @@ packages:
       '@unocss/core': registry.npmmirror.com/@unocss/core@0.56.5
       '@unocss/reset': registry.npmmirror.com/@unocss/reset@0.56.5
       '@unocss/vite': registry.npmmirror.com/@unocss/vite@0.56.5(vite@4.4.11)
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2070,7 +2072,7 @@ packages:
       chokidar: registry.npmmirror.com/chokidar@3.5.3
       fast-glob: registry.npmmirror.com/fast-glob@3.3.1
       magic-string: registry.npmmirror.com/magic-string@0.30.4
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2088,7 +2090,7 @@ packages:
       '@babel/core': registry.npmmirror.com/@babel/core@7.23.0
       '@babel/plugin-transform-typescript': registry.npmmirror.com/@babel/plugin-transform-typescript@7.22.15(@babel/core@7.23.0)
       '@vue/babel-plugin-jsx': registry.npmmirror.com/@vue/babel-plugin-jsx@1.1.5(@babel/core@7.23.0)
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
       vue: registry.npmmirror.com/vue@3.3.4
     transitivePeerDependencies:
       - supports-color
@@ -2104,7 +2106,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
       vue: registry.npmmirror.com/vue@3.3.4
     dev: true
 
@@ -3747,6 +3749,18 @@ packages:
     dev: true
     optional: true
 
+  registry.npmmirror.com/eslint-compat-utils@0.1.2(eslint@8.51.0):
+    resolution: {integrity: sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-compat-utils/-/eslint-compat-utils-0.1.2.tgz}
+    id: registry.npmmirror.com/eslint-compat-utils/0.1.2
+    name: eslint-compat-utils
+    version: 0.1.2
+    engines: {node: '>=12'}
+    peerDependencies:
+      eslint: '>=6.0.0'
+    dependencies:
+      eslint: registry.npmmirror.com/eslint@8.51.0
+    dev: true
+
   registry.npmmirror.com/eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz}
     name: eslint-import-resolver-node
@@ -3759,7 +3773,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/eslint-module-utils@2.8.0(@typescript-eslint/parser@6.7.4)(eslint-import-resolver-node@0.3.9)(eslint@8.48.0):
+  registry.npmmirror.com/eslint-module-utils@2.8.0(@typescript-eslint/parser@6.7.4)(eslint-import-resolver-node@0.3.9)(eslint@8.51.0):
     resolution: {integrity: sha512-aWajIYfsqCKRDgUfjEXNN/JlrzauMuSEy5sbd7WXbtW3EH6A6MpwEh42c7qD+MqQo9QMJ6fWLAeIJynx0g6OAw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-module-utils/-/eslint-module-utils-2.8.0.tgz}
     id: registry.npmmirror.com/eslint-module-utils/2.8.0
     name: eslint-module-utils
@@ -3783,28 +3797,28 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser@6.7.4(eslint@8.51.0)(typescript@5.2.2)
       debug: registry.npmmirror.com/debug@3.2.7
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       eslint-import-resolver-node: registry.npmmirror.com/eslint-import-resolver-node@0.3.9
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-antfu@0.41.0(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/eslint-plugin-antfu@0.41.0(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-JeEeDZgz7oqYPYWYNQHdXrKaW2nhJz/70jeMZUkaNjVp72cpsJPH3idiEhIhGu3wjFdsOMCoEkboT/DQXlCaqA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-antfu/-/eslint-plugin-antfu-0.41.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-antfu/0.41.0
     name: eslint-plugin-antfu
     version: 0.41.0
     dependencies:
-      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.48.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@6.7.4(eslint@8.51.0)(typescript@5.2.2)
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-es-x@7.2.0(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-es-x@7.2.0(eslint@8.51.0):
     resolution: {integrity: sha512-9dvv5CcvNjSJPqnS5uZkqb3xmbeqRLnvXKK7iI5+oK/yTusyc46zbBZKENGsOfojm/mKfszyZb+wNqNPAPeGXA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-es-x/-/eslint-plugin-es-x-7.2.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-es-x/7.2.0
     name: eslint-plugin-es-x
@@ -3813,12 +3827,12 @@ packages:
     peerDependencies:
       eslint: '>=8'
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
       '@eslint-community/regexpp': registry.npmmirror.com/@eslint-community/regexpp@4.9.1
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-eslint-comments@3.2.0(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-eslint-comments@3.2.0(eslint@8.51.0):
     resolution: {integrity: sha512-0jkOl0hfojIHHmEHgmNdqv4fmh7300NdpA9FFpF7zaoLvB/QeXOGNLIo86oAveJFrfB1p05kC8hpEMHM8DwWVQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-3.2.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-eslint-comments/3.2.0
     name: eslint-plugin-eslint-comments
@@ -3828,7 +3842,7 @@ packages:
       eslint: '>=4.19.1'
     dependencies:
       escape-string-regexp: registry.npmmirror.com/escape-string-regexp@1.0.5
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       ignore: registry.npmmirror.com/ignore@5.2.4
     dev: true
 
@@ -3840,7 +3854,7 @@ packages:
       htmlparser2: registry.npmmirror.com/htmlparser2@8.0.2
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-i@2.28.0-2(@typescript-eslint/parser@6.7.4)(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-i@2.28.0-2(@typescript-eslint/parser@6.7.4)(eslint@8.51.0):
     resolution: {integrity: sha512-z48kG4qmE4TmiLcxbmvxMT5ycwvPkXaWW0XpU1L768uZaTbiDbxsHMEdV24JHlOR1xDsPpKW39BfP/pRdYIwFA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-i/-/eslint-plugin-i-2.28.0-2.tgz}
     id: registry.npmmirror.com/eslint-plugin-i/2.28.0-2
     name: eslint-plugin-i
@@ -3851,9 +3865,9 @@ packages:
     dependencies:
       debug: registry.npmmirror.com/debug@3.2.7
       doctrine: registry.npmmirror.com/doctrine@2.1.0
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       eslint-import-resolver-node: registry.npmmirror.com/eslint-import-resolver-node@0.3.9
-      eslint-module-utils: registry.npmmirror.com/eslint-module-utils@2.8.0(@typescript-eslint/parser@6.7.4)(eslint-import-resolver-node@0.3.9)(eslint@8.48.0)
+      eslint-module-utils: registry.npmmirror.com/eslint-module-utils@2.8.0(@typescript-eslint/parser@6.7.4)(eslint-import-resolver-node@0.3.9)(eslint@8.51.0)
       get-tsconfig: registry.npmmirror.com/get-tsconfig@4.7.2
       is-glob: registry.npmmirror.com/is-glob@4.0.3
       minimatch: registry.npmmirror.com/minimatch@3.1.2
@@ -3866,7 +3880,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-jest@27.4.2(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.48.0)(typescript@5.2.2):
+  registry.npmmirror.com/eslint-plugin-jest@27.4.2(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-3Nfvv3wbq2+PZlRTf2oaAWXWwbdBejFRBR2O8tAO67o+P8zno+QGbcDYaAXODlreXVg+9gvWhKKmG2rgfb8GEg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-jest/-/eslint-plugin-jest-27.4.2.tgz}
     id: registry.npmmirror.com/eslint-plugin-jest/27.4.2
     name: eslint-plugin-jest
@@ -3882,30 +3896,31 @@ packages:
       jest:
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@5.62.0(eslint@8.48.0)(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      '@typescript-eslint/utils': registry.npmmirror.com/@typescript-eslint/utils@5.62.0(eslint@8.51.0)(typescript@5.2.2)
+      eslint: registry.npmmirror.com/eslint@8.51.0
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-jsonc@2.9.0(eslint@8.48.0):
-    resolution: {integrity: sha512-RK+LeONVukbLwT2+t7/OY54NJRccTXh/QbnXzPuTLpFMVZhPuq1C9E07+qWenGx7rrQl0kAalAWl7EmB+RjpGA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-jsonc/-/eslint-plugin-jsonc-2.9.0.tgz}
-    id: registry.npmmirror.com/eslint-plugin-jsonc/2.9.0
+  registry.npmmirror.com/eslint-plugin-jsonc@2.10.0(eslint@8.51.0):
+    resolution: {integrity: sha512-9d//o6Jyh4s1RxC9fNSt1+MMaFN2ruFdXPG9XZcb/mR2KkfjADYiNL/hbU6W0Cyxfg3tS/XSFuhl5LgtMD8hmw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-jsonc/-/eslint-plugin-jsonc-2.10.0.tgz}
+    id: registry.npmmirror.com/eslint-plugin-jsonc/2.10.0
     name: eslint-plugin-jsonc
-    version: 2.9.0
+    version: 2.10.0
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-compat-utils: registry.npmmirror.com/eslint-compat-utils@0.1.2(eslint@8.51.0)
       jsonc-eslint-parser: registry.npmmirror.com/jsonc-eslint-parser@2.3.0
       natural-compare: registry.npmmirror.com/natural-compare@1.4.0
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-markdown@3.0.1(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-markdown@3.0.1(eslint@8.51.0):
     resolution: {integrity: sha512-8rqoc148DWdGdmYF6WSQFT3uQ6PO7zXYgeBpHAOAakX/zpq+NvFYbDA/H7PYzHajwtmaOzAwfxyl++x0g1/N9A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-markdown/-/eslint-plugin-markdown-3.0.1.tgz}
     id: registry.npmmirror.com/eslint-plugin-markdown/3.0.1
     name: eslint-plugin-markdown
@@ -3914,13 +3929,13 @@ packages:
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       mdast-util-from-markdown: registry.npmmirror.com/mdast-util-from-markdown@0.8.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-n@16.1.0(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-n@16.1.0(eslint@8.51.0):
     resolution: {integrity: sha512-3wv/TooBst0N4ND+pnvffHuz9gNPmk/NkLwAxOt2JykTl/hcuECe6yhTtLJcZjIxtZwN+GX92ACp/QTLpHA3Hg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-n/-/eslint-plugin-n-16.1.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-n/16.1.0
     name: eslint-plugin-n
@@ -3929,10 +3944,10 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
       builtins: registry.npmmirror.com/builtins@5.0.1
-      eslint: registry.npmmirror.com/eslint@8.48.0
-      eslint-plugin-es-x: registry.npmmirror.com/eslint-plugin-es-x@7.2.0(eslint@8.48.0)
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-plugin-es-x: registry.npmmirror.com/eslint-plugin-es-x@7.2.0(eslint@8.51.0)
       get-tsconfig: registry.npmmirror.com/get-tsconfig@4.7.2
       ignore: registry.npmmirror.com/ignore@5.2.4
       is-core-module: registry.npmmirror.com/is-core-module@2.13.0
@@ -3948,7 +3963,7 @@ packages:
     engines: {node: '>=5.0.0'}
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-promise@6.1.1(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-promise@6.1.1(eslint@8.51.0):
     resolution: {integrity: sha512-tjqWDwVZQo7UIPMeDReOpUgHCmCiH+ePnVT+5zVapL0uuHnegBUs2smM13CzOs2Xb5+MHMRFTs9v24yjba4Oig==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-promise/-/eslint-plugin-promise-6.1.1.tgz}
     id: registry.npmmirror.com/eslint-plugin-promise/6.1.1
     name: eslint-plugin-promise
@@ -3957,10 +3972,10 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-unicorn@48.0.1(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-unicorn@48.0.1(eslint@8.51.0):
     resolution: {integrity: sha512-FW+4r20myG/DqFcCSzoumaddKBicIPeFnTrifon2mWIzlfyvzwyqZjqVP7m4Cqr/ZYisS2aiLghkUWaPg6vtCw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-48.0.1.tgz}
     id: registry.npmmirror.com/eslint-plugin-unicorn/48.0.1
     name: eslint-plugin-unicorn
@@ -3970,10 +3985,10 @@ packages:
       eslint: '>=8.44.0'
     dependencies:
       '@babel/helper-validator-identifier': registry.npmmirror.com/@babel/helper-validator-identifier@7.22.20
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
       ci-info: registry.npmmirror.com/ci-info@3.9.0
       clean-regexp: registry.npmmirror.com/clean-regexp@1.0.0
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       esquery: registry.npmmirror.com/esquery@1.5.0
       indent-string: registry.npmmirror.com/indent-string@4.0.0
       is-builtin-module: registry.npmmirror.com/is-builtin-module@3.2.1
@@ -3987,7 +4002,7 @@ packages:
       strip-indent: registry.npmmirror.com/strip-indent@3.0.0
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.7.4)(eslint@8.51.0):
     resolution: {integrity: sha512-sduiswLJfZHeeBJ+MQaG+xYzSWdRXoSw61DpU13mzWumCkR0ufD0HmO4kdNokjrkluMHpj/7PJeN35pgbhW3kw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-unused-imports/-/eslint-plugin-unused-imports-3.0.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-unused-imports/3.0.0
     name: eslint-plugin-unused-imports
@@ -4000,12 +4015,12 @@ packages:
       '@typescript-eslint/eslint-plugin':
         optional: true
     dependencies:
-      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.48.0)(typescript@5.2.2)
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin@6.7.4(@typescript-eslint/parser@6.7.4)(eslint@8.51.0)(typescript@5.2.2)
+      eslint: registry.npmmirror.com/eslint@8.51.0
       eslint-rule-composer: registry.npmmirror.com/eslint-rule-composer@0.3.0
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-vue@9.17.0(eslint@8.48.0):
+  registry.npmmirror.com/eslint-plugin-vue@9.17.0(eslint@8.51.0):
     resolution: {integrity: sha512-r7Bp79pxQk9I5XDP0k2dpUC7Ots3OSWgvGZNu3BxmKK6Zg7NgVtcOB6OCna5Kb9oQwJPl5hq183WD0SY5tZtIQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-vue/-/eslint-plugin-vue-9.17.0.tgz}
     id: registry.npmmirror.com/eslint-plugin-vue/9.17.0
     name: eslint-plugin-vue
@@ -4014,29 +4029,30 @@ packages:
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
+      eslint: registry.npmmirror.com/eslint@8.51.0
       natural-compare: registry.npmmirror.com/natural-compare@1.4.0
       nth-check: registry.npmmirror.com/nth-check@2.1.1
       postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser@6.0.13
       semver: registry.npmmirror.com/semver@7.5.4
-      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser@9.3.1(eslint@8.48.0)
+      vue-eslint-parser: registry.npmmirror.com/vue-eslint-parser@9.3.2(eslint@8.51.0)
       xml-name-validator: registry.npmmirror.com/xml-name-validator@4.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/eslint-plugin-yml@1.9.0(eslint@8.48.0):
-    resolution: {integrity: sha512-ayuC57WyVQ5+QZ02y62GiB//5+zsiyzUGxUX/mrhLni+jfsKA4KoITjkbR65iUdjjhWpyTJHPcAIFLKQIOwgsw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-yml/-/eslint-plugin-yml-1.9.0.tgz}
-    id: registry.npmmirror.com/eslint-plugin-yml/1.9.0
+  registry.npmmirror.com/eslint-plugin-yml@1.10.0(eslint@8.51.0):
+    resolution: {integrity: sha512-53SUwuNDna97lVk38hL/5++WXDuugPM9SUQ1T645R0EHMRCdBIIxGye/oOX2qO3FQ7aImxaUZJU/ju+NMUBrLQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-plugin-yml/-/eslint-plugin-yml-1.10.0.tgz}
+    id: registry.npmmirror.com/eslint-plugin-yml/1.10.0
     name: eslint-plugin-yml
-    version: 1.9.0
+    version: 1.10.0
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       debug: registry.npmmirror.com/debug@4.3.4
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
+      eslint-compat-utils: registry.npmmirror.com/eslint-compat-utils@0.1.2(eslint@8.51.0)
       lodash: registry.npmmirror.com/lodash@4.17.21
       natural-compare: registry.npmmirror.com/natural-compare@1.4.0
       yaml-eslint-parser: registry.npmmirror.com/yaml-eslint-parser@1.2.2
@@ -4078,17 +4094,17 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  registry.npmmirror.com/eslint@8.48.0:
-    resolution: {integrity: sha512-sb6DLeIuRXxeM1YljSe1KEx9/YYeZFQWcV8Rq9HfigmdDEugjLEVEa1ozDjL6YDjBpQHPJxJzze+alxi4T3OLg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint/-/eslint-8.48.0.tgz}
+  registry.npmmirror.com/eslint@8.51.0:
+    resolution: {integrity: sha512-2WuxRZBrlwnXi+/vFSJyjMqrNjtJqiasMzehF0shoLaW7DzS3/9Yvrmq5JiT66+pNjiX4UBnLDiKHcWAr/OInA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint/-/eslint-8.51.0.tgz}
     name: eslint
-    version: 8.48.0
+    version: 8.51.0
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.48.0)
+      '@eslint-community/eslint-utils': registry.npmmirror.com/@eslint-community/eslint-utils@4.4.0(eslint@8.51.0)
       '@eslint-community/regexpp': registry.npmmirror.com/@eslint-community/regexpp@4.9.1
       '@eslint/eslintrc': registry.npmmirror.com/@eslint/eslintrc@2.1.2
-      '@eslint/js': registry.npmmirror.com/@eslint/js@8.48.0
+      '@eslint/js': registry.npmmirror.com/@eslint/js@8.51.0
       '@humanwhocodes/config-array': registry.npmmirror.com/@humanwhocodes/config-array@0.11.11
       '@humanwhocodes/module-importer': registry.npmmirror.com/@humanwhocodes/module-importer@1.0.1
       '@nodelib/fs.walk': registry.npmmirror.com/@nodelib/fs.walk@1.2.8
@@ -6495,10 +6511,10 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  registry.npmmirror.com/pnpm@8.7.1:
-    resolution: {integrity: sha512-Qbt3EhYUaXFS2k4FLQA7r2/eYz/JoDeG680/3UXG0Ga03LPuY4GgdvCLe+zO3M7ZnWG4VI4bAwk7QpJyfr5eqA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pnpm/-/pnpm-8.7.1.tgz}
+  registry.npmmirror.com/pnpm@8.8.0:
+    resolution: {integrity: sha512-eY5rMiZpzmPI2oVr1irR97bzb036oKwCWvK91wDQndXcqUPlytPtrF0bO668Syw/uA+7hTf5NnM8Mr4ux4BRRA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pnpm/-/pnpm-8.8.0.tgz}
     name: pnpm
-    version: 8.7.1
+    version: 8.8.0
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
@@ -7549,7 +7565,7 @@ packages:
       '@unocss/transformer-directives': registry.npmmirror.com/@unocss/transformer-directives@0.56.5
       '@unocss/transformer-variant-group': registry.npmmirror.com/@unocss/transformer-variant-group@0.56.5
       '@unocss/vite': registry.npmmirror.com/@unocss/vite@0.56.5(vite@4.4.11)
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -7643,7 +7659,7 @@ packages:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it@13.0.2
       markdown-it: registry.npmmirror.com/markdown-it@13.0.2
       unplugin: registry.npmmirror.com/unplugin@1.5.0
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -7803,7 +7819,7 @@ packages:
       open: registry.npmmirror.com/open@9.1.0
       picocolors: registry.npmmirror.com/picocolors@1.0.0
       sirv: registry.npmmirror.com/sirv@2.0.3
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -7821,7 +7837,7 @@ packages:
       debug: registry.npmmirror.com/debug@4.3.4
       fs-extra: registry.npmmirror.com/fs-extra@11.1.1
       magic-string: registry.npmmirror.com/magic-string@0.30.4
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7839,7 +7855,7 @@ packages:
       fast-glob: registry.npmmirror.com/fast-glob@3.3.1
       fs-extra: registry.npmmirror.com/fs-extra@11.1.1
       picocolors: registry.npmmirror.com/picocolors@1.0.0
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
     dev: true
 
   registry.npmmirror.com/vite-plugin-vue-server-ref@0.3.4(vite@4.4.11)(vue@3.3.4):
@@ -7853,7 +7869,7 @@ packages:
     dependencies:
       debug: registry.npmmirror.com/debug@4.3.4
       ufo: registry.npmmirror.com/ufo@1.3.1
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
       vue: registry.npmmirror.com/vue@3.3.4
     transitivePeerDependencies:
       - supports-color
@@ -7870,13 +7886,13 @@ packages:
       '@windicss/plugin-utils': registry.npmmirror.com/@windicss/plugin-utils@1.9.1
       debug: registry.npmmirror.com/debug@4.3.4
       kolorist: registry.npmmirror.com/kolorist@1.8.0
-      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9)
+      vite: registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3)
       windicss: registry.npmmirror.com/windicss@3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vite@4.4.11(@types/node@20.5.9):
+  registry.npmmirror.com/vite@4.4.11(@types/node@20.8.3):
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-4.4.11.tgz}
     id: registry.npmmirror.com/vite/4.4.11
     name: vite
@@ -7907,7 +7923,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@20.5.9
+      '@types/node': registry.npmmirror.com/@types/node@20.8.3
       esbuild: registry.npmmirror.com/esbuild@0.18.20
       postcss: registry.npmmirror.com/postcss@8.4.31
       rollup: registry.npmmirror.com/rollup@3.29.4
@@ -7933,17 +7949,17 @@ packages:
       vue: registry.npmmirror.com/vue@3.3.4
     dev: true
 
-  registry.npmmirror.com/vue-eslint-parser@9.3.1(eslint@8.48.0):
-    resolution: {integrity: sha512-Clr85iD2XFZ3lJ52/ppmUDG/spxQu6+MAeHXjjyI4I1NUYZ9xmenQp4N0oaHJhrA8OOxltCVxMRfANGa70vU0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.3.1.tgz}
-    id: registry.npmmirror.com/vue-eslint-parser/9.3.1
+  registry.npmmirror.com/vue-eslint-parser@9.3.2(eslint@8.51.0):
+    resolution: {integrity: sha512-q7tWyCVaV9f8iQyIA5Mkj/S6AoJ9KBN8IeUSf3XEmBrOtxOZnfTg5s4KClbZBCK3GtnT/+RyCLZyDHuZwTuBjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-9.3.2.tgz}
+    id: registry.npmmirror.com/vue-eslint-parser/9.3.2
     name: vue-eslint-parser
-    version: 9.3.1
+    version: 9.3.2
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       debug: registry.npmmirror.com/debug@4.3.4
-      eslint: registry.npmmirror.com/eslint@8.48.0
+      eslint: registry.npmmirror.com/eslint@8.51.0
       eslint-scope: registry.npmmirror.com/eslint-scope@7.2.2
       eslint-visitor-keys: registry.npmmirror.com/eslint-visitor-keys@3.4.3
       espree: registry.npmmirror.com/espree@9.6.1

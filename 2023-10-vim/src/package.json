@@ -1,0 +1,10 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023-10-vim/ --out ../../dist/2023-10-vim",
+    "export": "slidev export --dark --output ../2023-10-vim.pdf",
+    "play": "slidev --remote --tunnel"
+  }
+}
